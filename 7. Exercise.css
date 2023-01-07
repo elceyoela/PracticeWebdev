@@ -1,0 +1,95 @@
+.img1 {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.img2 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 30px;
+}
+
+.img3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: 30px;
+}
+
+.searchd {
+    color: gray;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.searche {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: gray;
+    padding-right: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0px 0px 5px black;;
+}
+
+p {
+    color: gray;
+    font-size: 17.5px;
+}
+
+.searchf {
+    width: 400px;
+    font-size: 20px;
+    border-color: rgb(100, 100, 100);
+    border-width: 2px;
+    border-radius: 5px;
+    color: gray;
+    border-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.linkedin-bot {
+    background-color: rgb(73, 73, 233);
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+.cat-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+.tweeter {
+    border-style: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.tweet {
+    border-style: none;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgba(97, 97, 255, 0.863);
+    color: white;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,207 @@
+body {
+    padding-bottom: 1000px;
+}
+
+.section-1 {
+    display: flex;
+}
+
+.class1 {
+    width: 200px;
+    background-color: aqua;
+}
+
+.class2 {
+    width: 75px;
+    background-color: pink;
+}
+
+.class3 {
+    width: 50 px;
+    background-color: aqua;
+}
+
+.class4 {
+    flex: 1;
+    background-color: pink;
+}
+
+.class5 {
+    width: 75 px;
+    background-color: aqua;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.class6, .class7, .class8, .class9 {
+    background-color: pink;
+}
+
+.section-3 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.class10, .class11{
+    background-color: pink;
+}
+
+/*
+EXERCISE E
+*/
+
+.container {
+    margin-top: 50px;
+    width: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(197, 197, 197, 0.712);
+    border-radius: 5px;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.notifications {
+    background-color: rgb(49, 109, 245);
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*
+EXERCISE f
+*/
+
+.container2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(174, 90, 253);
+    width: 600px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.left-section {
+    width: 100px;
+    color: white;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.middle-section {
+    flex: 1;
+    width: 200px;
+    max-width: 300px;
+}
+
+.searchbar {
+    width: 280px;
+    border-radius: 20px;
+    border-style: none;
+    height: 30px;
+}
+
+.right-section {
+    width: 100px;
+}
+
+.download {
+    color: white;
+    background-color: rgb(174, 90, 253);
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/*
+EXERCISE G
+*/
+.container3 {
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.info {
+    width: 200px;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.handle {
+    color: rgb(153, 153, 153);
+    margin-bottom: 5px;
+}
+
+.category {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+}
+
+.follow-button {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+}

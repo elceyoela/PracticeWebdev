@@ -1,0 +1,96 @@
+.texta {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.paragraph-b {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.choice {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google-picture {
+    display: block;
+    width: 400px;
+    margin-left: 90px;
+}
+
+.textc {
+    border-style: none;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 600px;
+    box-shadow: 0 0 10px gray;
+}
+
+.name,
+.last {
+    display: inline;
+    width: 150px;
+    font-size: 25px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.email {
+    display: block;
+    width: 310px;
+    font-size: 25px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.sign-up {
+    width: 315px;
+    font-size: 25px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(66, 66, 218, 0.842);
+}
+
+.heading {
+    font-weight:200;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pickup,
+.dropoff {
+    display: block;
+    width: 360px;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-style: none;
+    background-color: rgba(219, 219, 219, 0.842);
+}
+.request {
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-style: none;
+}
+
+.schedule {
+    background-color: rgb(165, 165, 165);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    border-style: none;
+}
